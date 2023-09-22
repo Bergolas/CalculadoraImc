@@ -4,7 +4,7 @@ import styles from "./style"
 
 export default function Title(){
     return(
-        <View>
+        <View style={styles.boxTitle}>
             <Text style={styles.titleText}>Calculador IMC</Text>
         </View>
     );

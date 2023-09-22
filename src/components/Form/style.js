@@ -6,20 +6,24 @@ const styles = StyleSheet.create({
         width: "100%",
         height: "auto",
         bottom: 0,
-        backgroundColor: "#2d3000",
+        backgroundColor: "#333101",
         alignItems: "center",
         borderTopLeftRadius: 30,    
         borderTopRightRadius: 30,
         borderBottomRightRadius: 30,
         borderBottomLeftRadius: 30,
+        shadowColor: "#000",
+        shadowOffset: {width: 0,height: 0},
+        shadowOpacity: 1,
+        shadowRadius: 10,
         marginTop: 10,
     },
 
     form:{
         width: "auto",
         height: "auto",
-        marginTop: 20,
-        padding: 20,
+        marginTop: 30,
+        padding: 30,
     },
 
     label:{
@@ -53,6 +57,12 @@ const styles = StyleSheet.create({
         fontSize: 20,
         color: "#fff",
         fontWeight: "bold",
+    },
+    errormessage:{
+        fontSize: 12,
+        color: 'red',
+        fontWeight: "bold",
+        paddingLeft: 10,
     }
 
 
